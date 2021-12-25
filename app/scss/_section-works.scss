@@ -1,0 +1,291 @@
+// .section-works {
+//     padding: 4rem 0;
+
+   
+// }
+
+// .link.is-active  {
+//     font-weight: 700;
+
+// }
+// .projects {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+// }
+
+
+
+
+
+
+// // *media 
+
+// @media (max-width: 850px) {
+//     .section-works {
+//         padding: 0;
+//     }
+//     .projects {
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         .projects-card {
+//             margin-right: 0;
+//         }
+
+//     }
+    
+// }
+
+// @media (max-width: 416px) {
+
+//         .projects-card {
+//             max-width: 280px;
+//             height: 280px;
+//             margin-right: 0;
+//         }
+
+// }
+
+// // */media
+
+
+
+
+
+
+
+/*=============================================
+=            Section Tabs block            =
+=============================================*/
+
+
+  .section-works {
+    padding-bottom: 30px;
+
+  }
+  .tabs {
+    display: flex;
+    background-color: #ffffcc;
+  }
+  
+  .tabs li:not(:last-child) {
+    margin-right: 7px;
+  }
+  
+  .tabs li a {
+    display: block;
+    position: relative;
+    top: 4px;
+    padding: 10px 10px;
+    border-radius: 2px 2px 0 0;
+    background-color: #ffffcc;
+    opacity: 0.7;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .tabs li.active a,
+  .tabs li a:hover {
+    opacity: 1;
+    top: 0;
+  }
+  
+  .tabs-content {
+    position: relative;
+    z-index: 2;
+    background-color: #ffffcc;
+  }
+  
+  .tabs-panel {
+    display: none;
+  }
+  
+  .tabs-panel.active {
+    display: block;
+  }
+  
+  .tabs-panel p + div {
+    margin-top: 15px;
+  }
+  
+ 
+
+
+
+
+
+  .tabs-nav {
+    display: flex;
+    justify-content: center;
+ 
+    list-style: none;
+        a {
+          font-family: $segoe;
+            text-decoration: none;
+            color: $gray;
+            font-size: 2rem;
+            margin-right: 5rem;
+            font-weight: bold;
+            margin-bottom: 4rem;
+            transition: all .3s linear;
+            
+
+                &:last-child{
+                    margin-right: 0;
+                }
+                &:hover {
+                    color: $title;
+                }
+
+
+          
+        }
+}
+
+
+
+.tabs-panel__items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #ffffcc;
+
+   a {
+     margin: 20px;
+
+   }
+}
+
+
+//^ /*=====  Project Card  ======*/
+
+.projects-card {
+    
+
+  width: 100%;
+  max-width: 350px;
+  height: 250px;
+  border: 1px solid  rgba($color: #707070, $alpha: 0.4);
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba($color: #000000, $alpha: 0.16);
+  margin-bottom: 4rem;
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  transition: all .3s linear;
+
+
+
+      img {
+          background-color: red;
+          width: 100%;
+          object-fit: cover;
+          overflow: hidden;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          display: inline-block;
+      }
+
+
+
+      &:hover {
+          
+          transform: scale(1.1);
+          box-shadow: 13px 3px 30px 0px rgba($title, .7);
+          
+      }
+   
+}
+
+
+.project-card__text-info {
+  display: flex;
+  flex-direction: column;
+
+
+  p  {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      letter-spacing: 0.5px;
+      color: $title;
+      margin-bottom: 5px;
+  }
+}
+.project-card__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1.5rem 1.5rem 0.7rem;
+}
+
+
+.project-card__text-date {
+  span {
+      font-weight: 1.6rem;
+      font-weight: 700;
+      line-height: 1.5;
+      color: $title;
+      font-family: inherit;
+  }
+}
+
+
+
+@media (max-width: 1225px) {
+  .tabs-panel__items {
+    justify-content: center;
+  }
+
+  .tabs li a {
+
+    padding: 10px 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+}
+
+
+@media (max-width: 1024px) {
+  // .section-works {
+  //   padding-top: 30px;
+  // }
+} 
+@media (max-width: 840px) {
+  .projects-card {
+    height: 200px;
+    width: 250px;
+  }
+} 
+
+@media (max-width: 630px) {
+  .projects-card {
+    height: 200px;
+    width: 200px;
+
+  }
+  .project-card__title {
+    font-size: 1.2rem;
+  }
+
+  .tabs-panel__items {
+    a {
+      margin: 15px;
+
+    }
+  }
+} 
+@media (max-width: 510px) {
+  .projects-card {
+    height: 200px;
+    width: 350px;
+
+  }
+
+} 
+//^ /*=====  Project Card  ======*/
+
+
+/*=====  End of Section Tabs block  ======*/
+

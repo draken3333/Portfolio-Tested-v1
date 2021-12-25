@@ -1,0 +1,30 @@
+$segoe: 'Segoe UI';
+$title: #2B2A2C;
+$white: #ffff;
+$black: #0000;
+$gray: #707070;
+
+
+
+
+
+//^ Селекторы расшырения
+
+@mixin display-sp() {
+    display: flex;
+    justify-content: space-between;  
+}
+
+%modal-content {
+    font-weight: normal;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+
+    span {
+        margin-right: 5px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
+
+//^/ Селекторы расшырения

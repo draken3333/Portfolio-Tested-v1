@@ -1,0 +1,2356 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/icon-moon.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Hunger</title>
+</head>
+
+<body>
+
+    <main class="main">
+        <header class="header" style="background-image: url(images/header-top/header-top-bg.jpg);">
+            <div class="container container-realtive">
+                <div class="nav-wrapper">
+                    <menu class="header-top__menu">
+
+                        <nav class="menu-left">
+
+                            <li class="nav-list">
+                                <a class="nav__link" href="index.html">HOME</a>
+                            </li>
+
+                            <li class="nav-list">
+                                <a class="nav__link" href="#team">TEAM</a>
+                            </li>
+                            <li class="nav-list">
+                                <a class="nav__link nav__link-after" href="#about">ABOUT</a>
+                            </li>
+                            <li class="nav-list">
+                                <a class="nav__link" href="#book">
+                                    BOOKING
+                                </a>
+                            </li>
+
+                        </nav>
+
+                        <a href="#">
+                            <img class="header-logo wow animate__animated animate__rotateOut animate__infinite	infinite animate__slower" src="images/header-top/header-top-logo.svg" alt=""
+                                class="header-logo">
+                        </a>
+
+                        <nav class="menu-right">
+                            <li class="nav-list">
+                                <a class="nav__link" href="#menu">MENU</a>
+                            </li>
+                            <li class="nav-list">
+                                <a class="nav__link" href="#galery">GALERIE</a>
+                            </li>
+                            <li class="nav-list">
+                                <a class="nav__link nav__link-line" href="#event">EVENTS</a>
+                            </li>
+                            <li class="nav-list">
+                                <a class="nav__link" href="#contact">CONTACT</a>
+                            </li>
+                        </nav>
+
+                        <a class="burger">
+                            <img class="burger-img" src="images/header-top/burger.svg" alt="">
+                        </a>
+
+
+                    </menu><!-- ?/header-top__menu -->
+                </div>
+
+
+
+
+
+                <!-- *header-intro -->
+                <div class="header-intro">
+
+
+
+                    <div class="header-intro__text">
+                        <div class="header-intro__inner-suptitle wow animate__animated animate__zoomIn animate__slow">RESTAURANT</div>
+                        <h1 class="header-intro__inner-title animate__animated animate__zoomIn animate__slow">hungry people</h1>
+
+                        <div class="header-intro__inner-btn">
+                            <button class="btn btn-yellow wow popup-with-form animate__animated animate__zoomIn animate__slow" href="#test-form" type="button">BOOK TABLE</button>
+                            <button class="btn btn-transparent wow popup-with-form animate__animated animate__fadeInBottomLeft animate__slow" href="#popup-explore" type="button">EXPLORE</button>
+                        </div>
+
+                        <div class="arrowdown">
+                            <a class="arrowdown__link wow animate__animated animate__bounce animate__infinite	infinite animate__slow" href="#menu">
+                                <svg class="arrowdown__svg" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="arrowdown__path"
+                                        d="M6.33594 8.28906C6.6875 8.64062 7.27344 8.64062 7.625 8.28906L12.9375 2.97656C13.3281 2.58594 13.3281 2 12.9375 1.64844L12.0781 0.75C11.6875 0.398438 11.1016 0.398438 10.75 0.75L6.96094 4.53906L3.21094 0.75C2.85938 0.398438 2.27344 0.398438 1.88281 0.75L1.02344 1.64844C0.632812 2 0.632812 2.58594 1.02344 2.97656L6.33594 8.28906Z"
+                                        fill="#333333" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-intro__worktime">
+                        Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
+                    </div>
+
+
+
+
+                    <div class="header-intro__inner-social ">
+                        <!-- */social -->
+                        <a class="social__link" href="#">
+                            <svg width="12" height="21" viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.6484 12.2339L11.1953 8.64014H7.71875V6.29639C7.71875 5.28076 8.1875 4.34326 9.75 4.34326H11.3516V1.25732C11.3516 1.25732 9.90625 0.983887 8.53906 0.983887C5.6875 0.983887 3.8125 2.7417 3.8125 5.8667V8.64014H0.609375V12.2339H3.8125V20.9839H7.71875V12.2339H10.6484Z"
+                                    fill="white" />
+                            </svg>
+
+
+                        </a>
+                        <a class="social__link" href="#">
+                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.9297 4.92139C17.9557 5.02555 17.9688 5.19482 17.9688 5.4292C17.9688 7.3042 17.513 9.1141 16.6016 10.8589C15.6641 12.7078 14.349 14.1792 12.6562 15.2729C10.8073 16.4969 8.6849 17.1089 6.28906 17.1089C3.9974 17.1089 1.90104 16.4969 0 15.2729C0.286458 15.299 0.611979 15.312 0.976562 15.312C2.8776 15.312 4.58333 14.7261 6.09375 13.5542C5.18229 13.5542 4.375 13.2938 3.67188 12.7729C2.99479 12.2261 2.52604 11.549 2.26562 10.7417C2.52604 10.7677 2.77344 10.7808 3.00781 10.7808C3.3724 10.7808 3.73698 10.7417 4.10156 10.6636C3.16406 10.4552 2.38281 9.97347 1.75781 9.21826C1.13281 8.46305 0.820312 7.60368 0.820312 6.64014V6.56201C1.39323 6.90055 2.00521 7.08285 2.65625 7.10889C2.10938 6.71826 1.66667 6.22347 1.32812 5.62451C0.989583 5.02555 0.820312 4.37451 0.820312 3.67139C0.820312 2.94222 1.01562 2.25212 1.40625 1.60107C2.42188 2.87712 3.65885 3.89274 5.11719 4.64795C6.60156 5.40316 8.17708 5.81982 9.84375 5.89795C9.79167 5.58545 9.76562 5.27295 9.76562 4.96045C9.76562 4.23128 9.94792 3.5542 10.3125 2.9292C10.6771 2.27816 11.1719 1.77035 11.7969 1.40576C12.4219 1.04118 13.099 0.858887 13.8281 0.858887C14.4271 0.858887 14.974 0.976074 15.4688 1.21045C15.9896 1.44482 16.4453 1.75732 16.8359 2.14795C17.7734 1.96566 18.6458 1.64014 19.4531 1.17139C19.1406 2.13493 18.5417 2.89014 17.6562 3.43701C18.4375 3.33285 19.2188 3.11149 20 2.77295C19.4271 3.60628 18.737 4.32243 17.9297 4.92139Z"
+                                    fill="white" />
+                            </svg>
+
+
+                        </a>
+                        <a class="social__link" href="#">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9 4.4917C6.5 4.4917 4.50781 6.52295 4.50781 8.98389C4.50781 11.4839 6.5 13.4761 9 13.4761C11.4609 13.4761 13.4922 11.4839 13.4922 8.98389C13.4922 6.52295 11.4609 4.4917 9 4.4917ZM9 11.9136C7.39844 11.9136 6.07031 10.6245 6.07031 8.98389C6.07031 7.38232 7.35938 6.09326 9 6.09326C10.6016 6.09326 11.8906 7.38232 11.8906 8.98389C11.8906 10.6245 10.6016 11.9136 9 11.9136ZM14.7031 4.33545C14.7031 3.74951 14.2344 3.28076 13.6484 3.28076C13.0625 3.28076 12.5938 3.74951 12.5938 4.33545C12.5938 4.92139 13.0625 5.39014 13.6484 5.39014C14.2344 5.39014 14.7031 4.92139 14.7031 4.33545ZM17.6719 5.39014C17.5938 3.98389 17.2812 2.73389 16.2656 1.71826C15.25 0.702637 14 0.390137 12.5938 0.312012C11.1484 0.233887 6.8125 0.233887 5.36719 0.312012C3.96094 0.390137 2.75 0.702637 1.69531 1.71826C0.679688 2.73389 0.367188 3.98389 0.289062 5.39014C0.210938 6.83545 0.210938 11.1714 0.289062 12.6167C0.367188 14.0229 0.679688 15.2339 1.69531 16.2886C2.75 17.3042 3.96094 17.6167 5.36719 17.6948C6.8125 17.7729 11.1484 17.7729 12.5938 17.6948C14 17.6167 15.25 17.3042 16.2656 16.2886C17.2812 15.2339 17.5938 14.0229 17.6719 12.6167C17.75 11.1714 17.75 6.83545 17.6719 5.39014ZM15.7969 14.1401C15.5234 14.9214 14.8984 15.5073 14.1562 15.8198C12.9844 16.2886 10.25 16.1714 9 16.1714C7.71094 16.1714 4.97656 16.2886 3.84375 15.8198C3.0625 15.5073 2.47656 14.9214 2.16406 14.1401C1.69531 13.0073 1.8125 10.2729 1.8125 8.98389C1.8125 7.73389 1.69531 4.99951 2.16406 3.82764C2.47656 3.08545 3.0625 2.49951 3.84375 2.18701C4.97656 1.71826 7.71094 1.83545 9 1.83545C10.25 1.83545 12.9844 1.71826 14.1562 2.18701C14.8984 2.46045 15.4844 3.08545 15.7969 3.82764C16.2656 4.99951 16.1484 7.73389 16.1484 8.98389C16.1484 10.2729 16.2656 13.0073 15.7969 14.1401Z"
+                                    fill="white" />
+                            </svg>
+
+
+                        </a>
+                    </div><!-- ?/social -->
+
+
+
+                </div><!-- ?/header-intro -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div><!-- ?/container -->
+        </header><!-- ?/header -->
+
+
+
+        <!-- */section-about -->
+        <section class="section-about" id="about">
+            <div class="container container-section__about">
+                <div class="section-content">
+                    <div class="section-text wow animate__animated animate__slideInLeft animate__slow">
+                        <h2 class="section-text-title">
+                            about us
+                        </h2>
+                        <p class="section-text-subtitle">
+
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Duis at velit
+                            maximus, molestie est a, tempor magna.
+
+                        </p>
+                        <p class="section-text-subtitle__second">
+                            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+                            ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
+                            sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra.
+                            Nulla facilisis semper laoreet.
+                        </p>
+
+
+                    </div><!-- text -->
+
+                    <div class="section-prew wow animate__animated animate__slideInRight animate__slow">
+                        <img class="section-prew-images " src="images/section-about/about-img.jpg" alt="">
+                        <img class="section-prew-yellow " src="images/section-about/about-img__yellow.svg" alt="">
+
+                    </div><!-- prew -->
+
+                </div>
+            </div><!-- ?/container -->
+        </section>
+
+        <!-- ?/section-about -->
+
+
+
+
+
+        <!-- *Our Team -->
+
+        <section class="section-team" style="background-image: url(images/section-team/team-bg.jpg);" id="team">
+            <div class="container container-section__team">
+                <div class="section-team__wrapper">
+
+                    <div class="section-team__line">
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                    </div>
+
+
+
+                    <div class="section-title">
+                        OUR TEAM
+                    </div>
+                    <div class="section-content section-content--team">
+
+                        <div class="section-text section-text--team wow animate__animated animate__slideInRight animate__slow ">
+                            <h2 class="section-text-title section-text-title--team">
+                                MASTER CHEF
+                            </h2>
+                            <p class="section-text-subtitle section-text-subtitle--team">
+
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+                            </p>
+                            <p class="section-text-subtitle__second section-text-subtitle__second--team">
+                                Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+                                ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
+                                sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra.
+                                Nulla facilisis semper laoreet.
+                            </p>
+
+
+                        </div><!-- text -->
+
+                        <div class="section-prew section-prew--team wow animate__animated animate__slideInLeft animate__slow">
+                            <img class="section-prew-images wow animate__animated  animate__slow" src="images/section-team/team-img.jpg" alt="">
+                            <img class="section-prew-yellow section-prew-yellow__left" src="images/section-about/about-img__yellow.svg" alt="">
+
+                        </div><!-- prew -->
+
+                    </div>
+                </div>
+            </div><!-- ?/container -->
+        </section>
+        <!-- ?/Our Team -->
+
+        <!-- *section-table -->
+
+        <section class="section-table" id="book">
+            <div class="container">
+                <div class="table-content">
+
+                    <div class="section-content section-content__table ">
+                        <div class="section-text wow animate__animated animate__rotateInDownLeft animate__slow ">
+                            <h2 class="section-text-title">
+                                book a table
+                            </h2>
+
+
+                            <form class="section-table__form ">
+
+                                <!-- Hidden Required Fields -->
+                                <input type="hidden" name="project_name" value="Hunger">
+                                <input type="hidden" name="admin_email" value="alexshurko9911@gmail.com">
+                                <input type="hidden" name="form_subject" value="table">
+                                <!-- END Hidden Required Fields -->
+
+
+                                <input name="Имя" class="table__form table__form-name" required type="text" placeholder="Name">
+                                <input name="Номер" class="table__form table__form-number" required type="number" placeholder="Phone">
+                                <input name="Дата" class="table__form table__form-date" required type="date" placeholder="Date (mm/dd)">
+                                <input name="Мейл" class="table__form table__form-email" с type="email" placeholder="Email">
+                                <select name="Людей" class="select-form table__form table__select-people" name="People">
+                                    <option value="People">People</option>
+                                    <option value="People">People</option>
+                                    <option value="People">People</option>
+                                    <option value="People">People</option>
+                                    <option value="People">People</option>
+                                </select>
+                                <select name="Время" class="select-form table__form table__select-time" name="Time">
+                                    <option value="Time">Time</option>
+                                    <option value="Time">Time</option>
+                                    <option value="Time">Time</option>
+                                    <option value="Time">Time</option>
+                                    <option value="Time">Time</option>
+                                </select>
+                                <button type="submit" class="btn btn-yellow btn-big">
+                                    BOOK NOW
+                                </button>
+
+                            </form><!-- ?Form -->
+
+
+
+                        </div><!-- text -->
+
+                        <div class="section-prew wow animate__animated animate__fadeInBottomLeft animate__slow">
+                            <img class="section-prew-images " src="images/section-table/table-img.jpg" alt="">
+                            <img class="section-prew-yellow " src="images/section-about/about-img__yellow.svg" alt="">
+
+                        </div><!-- prew -->
+                    </div>
+
+                    <div class="section-table__worktime">
+                        Mon - Fri: <b>8PM - 10PM,</b> Sat - Sun: <b>8PM - 3AM,</b> Phone: <b>+40 729 131 637/+40 726 458 782</b>
+                    </div>
+
+
+
+                </div>
+
+        </section>
+
+        <!-- ?/section-table -->
+
+
+        <!-- * specialties -->
+
+        <section class="section-specialties__slider">
+            <div class="section-specialties__slider-wrapper">
+
+
+
+                <div class="section-specialties__slider-item">
+                    <div class="section-team section-specialties" style="background-image: url(images/section-specialties__slider/section-bg.jpg);">
+                        <div class="container container-section__team">
+                            <div class="section-team__wrapper wow animate__animated animate__fadeInLeft animate__slow">
+
+                                <div class="section-team__line">
+                                    <span class="line1"></span>
+                                    <span class="line2"></span>
+                                    <span class="line3"></span>
+                                </div>
+
+
+
+                                <div class="section-title">
+                                    specialties
+                                </div>
+                                <div class="section-content section-content--team">
+
+                                    <div class="section-text section-text--team ">
+                                        <h2 class="section-text-title section-text-title--team">
+                                            chocolate pancakes
+                                        </h2>
+                                        <p class="section-text-subtitle section-text-subtitle--team">
+
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+                                        </p>
+                                        <p class="section-text-subtitle__second section-text-subtitle__second--team">
+                                            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                                            Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio
+                                            vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+                                            diam convallis pharetra. Nulla facilisis semper laoreet.
+                                        </p>
+
+
+                                    </div><!-- text -->
+
+                                    <div class="section-prew section-prew--team">
+                                        <img class="section-prew-images " src="images/section-specialties__slider/section-img.jpg" alt="">
+                                        <img class="section-prew-yellow section-prew-yellow__left" src="images/section-about/about-img__yellow.svg" alt="">
+
+                                    </div><!-- prew -->
+
+                                </div>
+                            </div>
+                        </div><!-- ?/container -->
+                    </div>
+                </div><!-- item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="section-specialties__slider-item">
+                    <div class="section-team section-specialties" style="background-image: url(images/section-about/about-img.jpg);">
+                        <div class="container container-section__team">
+                            <div class="section-team__wrapper">
+
+                                <div class="section-team__line">
+                                    <span class="line1"></span>
+                                    <span class="line2"></span>
+                                    <span class="line3"></span>
+                                </div>
+
+
+
+                                <div class="section-title">
+                                    specialties
+                                </div>
+                                <div class="section-content section-content--team">
+
+                                    <div class="section-text section-text--team ">
+                                        <h2 class="section-text-title section-text-title--team">
+                                            chocolate pancakes
+                                        </h2>
+                                        <p class="section-text-subtitle section-text-subtitle--team">
+
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+                                        </p>
+                                        <p class="section-text-subtitle__second section-text-subtitle__second--team">
+                                            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                                            Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio
+                                            vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+                                            diam convallis pharetra. Nulla facilisis semper laoreet.
+                                        </p>
+
+
+                                    </div><!-- text -->
+
+                                    <div class="section-prew section-prew--team">
+                                        <img class="section-prew-images " src="images/section-specialties__slider/section-img.jpg" alt="">
+                                        <img class="section-prew-yellow section-prew-yellow__left" src="images/section-about/about-img__yellow.svg" alt="">
+
+                                    </div><!-- prew -->
+
+                                </div>
+                            </div>
+                        </div><!-- ?/container -->
+                    </div>
+                </div><!-- item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="section-specialties__slider-item">
+                    <div class="section-team section-specialties" style="background-image: url(images/section-table/table-img.jpg);">
+                        <div class="container container-section__team">
+                            <div class="section-team__wrapper">
+
+                                <div class="section-team__line">
+                                    <span class="line1"></span>
+                                    <span class="line2"></span>
+                                    <span class="line3"></span>
+                                </div>
+
+
+
+                                <div class="section-title">
+                                    specialties
+                                </div>
+                                <div class="section-content section-content--team">
+
+                                    <div class="section-text section-text--team ">
+                                        <h2 class="section-text-title section-text-title--team">
+                                            chocolate pancakes
+                                        </h2>
+                                        <p class="section-text-subtitle section-text-subtitle--team">
+
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+                                        </p>
+                                        <p class="section-text-subtitle__second section-text-subtitle__second--team">
+                                            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                                            Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio
+                                            vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+                                            diam convallis pharetra. Nulla facilisis semper laoreet.
+                                        </p>
+
+
+                                    </div><!-- text -->
+
+                                    <div class="section-prew section-prew--team">
+                                        <img class="section-prew-images " src="images/section-specialties__slider/section-img.jpg" alt="">
+                                        <img class="section-prew-yellow section-prew-yellow__left" src="images/section-about/about-img__yellow.svg" alt="">
+
+                                    </div><!-- prew -->
+
+                                </div>
+                            </div>
+                        </div><!-- ?/container -->
+                    </div>
+                </div><!-- item -->
+
+            </div><!-- wrapper -->
+
+
+        </section>
+
+        <!-- ?/ specialties -->
+
+        <!-- *section-menu -->
+
+
+        <section class="section-menu" id="menu">
+            <div class="container">
+
+
+                <div class="section-content section-content__menu wow animate__animated animate__bounceIn animate__slow">
+
+                    <div class="section-text  section-tex__menu">
+
+                        <h2 class="section-text-title section-text__menu-title">
+                            DELICIOUS MENU
+                        </h2>
+                        <p class="section-text-subtitle section-text-subtitle__menu">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing eli
+                            t. Duis at velit maximus, molestie est a, tempor magna.
+                        </p>
+
+                    </div>
+
+                    <!-- *tabs -->
+
+
+                    <div class="tabs">
+
+                        <div class="tabs__nav">
+                            <a class="tabs__link tabs__link_active" href="#content-1">SOUPE</a>
+                            <a class="tabs__link" href="#content-2">PIZZA</a>
+                            <a class="tabs__link" href="#content-3">PASTA</a>
+                            <a class="tabs__link" href="#content-4">DESERT</a>
+                            <a class="tabs__link" href="#content-5">WINE</a>
+                            <a class="tabs__link" href="#content-6">BEER</a>
+                            <a class="tabs__link" href="#content-7">DRINKS</a>
+                        </div>
+
+                        <div class="tabs__content">
+
+
+                            <div class="tabs__pane tabs__pane_show" id="content-1">
+
+
+
+
+
+                                <div class="tabs-content__flex">
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+                                </div><!-- ?/tabs-content-flex -->
+
+
+
+
+
+
+
+
+                            </div>
+
+                            <div class="tabs__pane" id="content-2">
+
+
+
+
+
+                                <div class="tabs-content__flex">
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name">PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+                                </div><!-- ?/tabs-content-flex -->
+
+
+
+
+
+
+
+                            </div>
+
+                            <div class="tabs__pane" id="content-3">
+
+
+                                <div class="tabs-content__flex">
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+                                </div><!-- ?/tabs-content-flex -->
+
+
+
+
+
+                            </div>
+
+                            <div class="tabs__pane" id="content-4">
+
+
+                                <div class="tabs-content__flex">
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+                                </div><!-- ?/tabs-content-flex -->
+
+
+
+
+
+
+                            </div>
+                            <div class="tabs__pane" id="content-5">
+
+                                <div class="tabs-content__flex">
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+                                </div><!-- ?/tabs-content-flex -->
+
+
+
+
+
+                            </div>
+                            <div class="tabs__pane" id="content-6">
+
+
+                                <div class="tabs-content__flex">
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+                                </div><!-- ?/tabs-content-flex -->
+
+
+
+
+                            </div>
+                            <div class="tabs__pane" id="content-7">
+
+
+
+
+
+                                <div class="tabs-content__flex">
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+                                    <div class="tabs-content__wrapper">
+
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+                                        <div class="tabs-content__item">
+                                            <div class="tabs-item__name">
+                                                <a href="#"><span class="item-name"> PIZZA QUATRO STAGIONI PIZZA QUATRO STAGIONI</span><span class="item-price"> 55,68 USD</span></a>
+                                            </div>
+                                            <div class="tabs-item__description">
+                                                Integer ullamcorper neque eu purus euismod
+                                            </div>
+                                        </div><!-- ?/item -->
+
+
+
+
+
+
+
+                                    </div><!-- ?/wrapper -->
+
+
+
+
+                                </div><!-- ?/tabs-content-flex -->
+
+
+
+
+
+
+                            </div>
+
+
+                        </div><!-- *tabs-content -->
+
+
+
+                    </div>
+
+
+                    <!-- ?/tabs -->
+
+                </div>
+        </section>
+        <!-- ?/section-menu -->
+
+
+        <!-- *section-event -->
+
+        <section class="section-events" style="background-image: url(images/section-specialties__slider/section-bg.jpg);" id="event">
+            <div class="container container--events">
+
+                <div class="section-team__wrapper">
+
+
+                    <div class="section-team__line section-team__line--events">
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                    </div>
+
+
+
+                    <div class="section-title section-title__events">
+                        PRIVATE EVENTS
+                    </div>
+                    <div class="section-content section-content--team section-content--event">
+
+                        <div class="section-text section-text--team section-text--events wow animate__animated animate__fadeInLeft animate__slow">
+
+                            <div class="section-prew section-prew--events">
+                                <img class="section-prew-images events-images__right" src="images/section-events/images-right.jpg" alt="">
+                                <img class="section-prew-yellow " src="images/section-about/about-img__yellow.svg" alt="">
+
+                                <h3 class="section-prew__text section-prew__text--right">
+                                    corporate pzrties
+                                </h3>
+
+                            </div><!-- prew -->
+
+
+                        </div><!-- text -->
+
+                        <div class="section-prew section-prew--team section-prew--events wow animate__animated animate__fadeInRight animate__slow">
+                            <img class="section-prew-images section-prew-images events-images__left " src="images/section-events/images-left.jpg" alt="">
+                            <img class="section-prew-yellow section-prew-yellow__left" src="images/section-about/about-img__yellow.svg" alt="">
+
+                            <h3 class="section-prew__text">
+                                weddings
+                            </h3>
+
+                        </div><!-- prew -->
+
+                    </div>
+
+                    <div class="events-supptitle">
+                        For private events please call: <span> +40 729 131 637/+40 726 458 782 </span> or use the contact form.
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- ?/section-event -->
+
+        <!-- *section-fancy -->
+        <section class="section-fancy" id="galery">
+            <div class="container container-fancy">
+                <div class="magnific-box wow animate__animated animate__slideInLeft animate__slow">
+
+                    <a class="without-caption image-link" href="images/section-fancy/fancy-box-1.jpg"><img class="magnific-img" src="images/section-fancy/fancy-box-1.jpg" alt=""></a>
+                    <a class="without-caption image-link" href="images/section-fancy/fancy-box-2.jpg"><img class="magnific-img" src="images/section-fancy/fancy-box-2.jpg" alt=""></a>
+                    <a class="without-caption image-link" href="images/section-fancy/fancy-box-3.jpg"><img class="magnific-img" src="images/section-fancy/fancy-box-3.jpg" alt=""></a>
+                    <a class="without-caption image-link" href="images/section-fancy/fancy-box-4.jpg"><img class="magnific-img" src="images/section-fancy/fancy-box-4.jpg" alt=""></a>
+                    <a class="without-caption image-link" href="images/section-fancy/fancy-box-1.jpg"><img class="magnific-img" src="images/section-fancy/fancy-box-1.jpg" alt=""></a>
+                    <a class="without-caption image-link" href="images/section-fancy/fancy-box-4.jpg"><img class="magnific-img" src="images/section-fancy/fancy-box-4.jpg" alt=""></a>
+
+
+
+                </div>
+
+
+            </div><!-- ?/container -->
+
+        </section>
+        <!-- ?section-fancy -->
+        
+
+
+
+        <!-- *section-contacts -->
+        <section class="section-contacts" id="contact">
+            <div class="container">
+                <div class="contacts-content contacts-content--contacts wow animate__animated animate__flipInX animate__slow">
+                    <div class="section-text">
+                        <h2 class="section-text-title">
+                            CONTACT
+                        </h2>
+                        <p class="section-text-subtitle">
+
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+                        </p>
+
+                    </div><!-- text -->
+
+                    <div class="contacts-form__wrapper">
+
+                        <form class="contacts-form">
+                            <input class="table__form table__form-name contacts-form-table contacts-form-name" required type="text" placeholder="Name">
+                            <input class="table__form table__form-number contacts-form-table contacts-form-number" required type="number" placeholder="Phone">
+                            <input class="table__form table__form-email contacts-form-table contacts-form-email" с type="email" placeholder="Email">
+                            <textarea class="contacts-textarea" placeholder="Massages"></textarea>
+
+                            <div class="contacts-footer">
+                                <div class="contacts-info">
+
+                                    <a href="#" class="contacts-link contacts-link__addres">5th London Boulevard, U.K.</a>
+                                    <a href="#" class="contacts-link contacts-link__phone">5th +40 729 131 637/+40 726 458 782</a>
+                                    <a href="#" class="contacts-link contacts-link__mail">office@mindblister.com</a>
+
+                                </div>
+                                <button type="submit" class="btn btn-yellow btn-big btn-content">
+                                    SEND MESSAGE
+                                </button>
+                            </div>
+
+
+                        </form><!-- ?Form -->
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ?section-contacts -->
+
+        <!-- *footer -->
+        <footer class="footer" id="footer">
+            <div class="footer__wrapper">
+
+
+                <div class="container container--footer">
+                    <div class="footer-map wow animate__animated animate__zoomIn animate__slow">
+                        <iframe class="footer-map__iframe"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155421.59372203558!2d13.28465014098043!3d52.506970379313024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2z0JHQtdGA0LvQuNC9LCDQk9C10YDQvNCw0L3QuNGP!5e0!3m2!1sru!2sua!4v1620847235188!5m2!1sru!2sua"
+                            loading="lazy"></iframe>
+
+                    </div>
+
+                </div>
+                <div class="footer-copy">
+                    © Copyright <span> Mindblister </span> 2019
+                </div>
+            </div>
+        </footer>
+        <!-- ?footer -->
+
+
+
+
+
+
+
+
+
+        <!-- *book-table-popup-->
+        <form id="test-form" class="mfp-hide white-popup-block popup-table">
+            <h2 class="section-text-title section-text-popup">
+                book a table
+            </h2>
+            <fieldset class="popup-table__content" style="border:0;">
+                <input class="table__form table__form-name" required type="text" placeholder="Name">
+                <input class="table__form table__form-number" required type="number" placeholder="Phone">
+                <input class="table__form table__form-date" required type="date" placeholder="Date (mm/dd)">
+                <input class="table__form table__form-email" с type="email" placeholder="Email">
+                <select class="select-form table__form table__select-people" name="People">
+                    <option value="People">People</option>
+                    <option value="People">People</option>
+                    <option value="People">People</option>
+                    <option value="People">People</option>
+                    <option value="People">People</option>
+                </select>
+                <select class="select-form table__form table__select-time" name="Time">
+                    <option value="Time">Time</option>
+                    <option value="Time">Time</option>
+                    <option value="Time">Time</option>
+                    <option value="Time">Time</option>
+                    <option value="Time">Time</option>
+                </select>
+
+                <button type="submit" class="btn btn-yellow btn-big btn-table-popup">
+                    BOOK NOW
+                </button>
+
+            </fieldset>
+        </form>
+
+
+        <form id="popup-explore" class="mfp-hide white-popup-block popup-table">
+            <h2 class="section-text-title section-text-popup">
+                Explore
+            </h2>
+            <fieldset class="popup-table__content" style="border:0;">
+                <input class="table__form table__form-name" required type="name" placeholder="Name">
+                <input class="table__form table__form-number" required type="number" placeholder="Phone">
+                <textarea class="explore-popup__textarea" placeholder="Your Text"></textarea>
+
+                <button type="submit" class="btn btn-yellow btn-big btn-table-popup">
+                    SEND TEXT
+                </button>
+
+            </fieldset>
+        </form>
+
+
+
+
+    </main><!-- ?/main -->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
